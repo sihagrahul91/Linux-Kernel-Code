@@ -1,0 +1,9 @@
+make -C /lib/modules/4.6.0+/build M=/usr/src/hw2-rsihag/fs/sgfs modules
+make[1]: Entering directory `/usr/src/hw2-rsihag'
+  CC [M]  /usr/src/hw2-rsihag/fs/sgfs/inode.o
+  LD [M]  /usr/src/hw2-rsihag/fs/sgfs/sgfs.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /usr/src/hw2-rsihag/fs/sgfs/sgfs.mod.o
+  LD [M]  /usr/src/hw2-rsihag/fs/sgfs/sgfs.ko
+make[1]: Leaving directory `/usr/src/hw2-rsihag'
