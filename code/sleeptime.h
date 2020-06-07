@@ -1,0 +1,2 @@
+#define BACKSLEEP 90000
+#define CONSSLEEP 30000
